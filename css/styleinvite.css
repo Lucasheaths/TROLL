@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(http://d3ugyf2ht6aenh.cloudfront.net/stores/438/755/products/dpfl338-58x581-451be64fd93d12cad815954442070456-640-0.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#pic{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a{
+    padding: 10px
+}
+
+button{
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 13pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px){
+    #pic{
+        width: 100%;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+}
